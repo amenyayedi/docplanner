@@ -1,0 +1,149 @@
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+{margin:0 auto;}
+#logo{
+   width:268px;
+   height:auto;
+   display: block;
+    margin: 0 auto;
+}
+
+.drop-menu{
+    display:none;
+    position: absolute;
+}
+.menu{
+    display:flex;
+    width: 252px;
+    justify-content: center;
+    align-items: center;
+    font-family: roboto;
+    font-size: 15px;
+    line: height 30px;
+    color:#ababab
+    height: 100px;
+    width: 100%;
+    position:fixed;
+    top=0;
+}
+header{
+    display:flex;
+    height: 70px;
+    position: fixed;
+    top: 0;
+}
+nav{
+    height: 100%;
+    width: 252%;
+}
+li{
+    list-style: none;
+}
+.menu-item: :hover{
+    color: #008398;
+}
+.drop-menu-item{
+    color: #ababab;
+    align-self:flex-start;
+}
+.drop-menu-item{
+    color: #ababab;
+    width: 220px;
+    height: 100px;
+    margin-left: -40px;
+    padding: 0px 20px;
+}
+.menu-item: :hover .drop-menu{
+    display:flex;
+    flex-direction:column ;
+    background-color: white ;
+    box-shawdow: 0px 2px 2px rgba(0, 0, 0, 0.281)
+    width: 220px;
+    height: 220%;
+    margin-left: -170px;
+    
+}
+.drop-menu-item:hover{
+    background-color: #ababab42;
+    color: #008398;
+}
+#paragraph-container{
+    display:flex;
+    justify-content: space-between;
+}
+#paragraph-container p{
+width: 477px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: #747474;
+margin: 15px;
+Font size: 16px
+Font weight: 400
+Line height: 28px
+Font color: rgb(116, 116, 116)
+}
+#section1{
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+}
+#section1 img {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 40px;
+    width: 40px;
+    display: block;
+}
+#section1 h1 {
+    Font name: "Work Sans", Arial, sans-serif
+    Font size: 34px
+    Font weight: 300
+    Line height: 44.2px
+    Font color: rgb(0, 179, 155)
+    text-align:centre;
+    color: #00b39b;
+    letter-spacing: -0.3px;
+
+}
+.services__item services__item--marketplace{
+    background-color: #00ccb1;
+    color: #747474;
+    Font name: Roboto, Arial, sans-serif
+    Font size: 16px
+    Font weight: 400
+    Line height: 20.8px
+    Font color: rgb(116, 116, 116)
+    disolay;flex:
+    overflow:hidden;
+
+}
+.services__item services__item--saas{
+    Font name: Roboto, Arial, sans-serif
+    Font size: 16px
+    Font weight: 400
+    Line height: 20.8px
+    Font color: rgb(116, 116, 116)
+    background-color: #3d83df;
+    color: #747474;
+    height: 345px;
+    width:311.625px;
+    padding: 32px 32px 032px;
+    display: flex;
+
+}
+.main-menu{
+    Font name: Roboto, Arial, sans-serif;
+    Font size: 15px;
+    Font weight: 400;
+    Line height: 30px;
+    Font color: rgb(116, 116, 116);
+    color: #747474;
+
+
+}
+.is-current{
+    color: #00b39b;
+    Font name: Roboto, Arial, sans-serif;
+    Font size: 15px;
+    Font weight: 400;
+    Line height: 30px;
+    Font color: rgb(0, 179, 155);
+}
